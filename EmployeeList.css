@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Header{
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+}
+#logout-btn{
+    height: 35px;
+    width: 60px;
+    /* background-color: #f82929; */
+    background-color: transparent;
+    color: red;
+    border: none;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+#logout-btn:hover{
+    /* color: rgb(177, 179, 32); */
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+}
